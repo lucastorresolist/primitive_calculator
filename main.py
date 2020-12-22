@@ -3,21 +3,24 @@ from textwrap import dedent
 
 if __name__ == "__main__":
 
-    number1: float = 0
-    number2: float = 0
-    
+    number1: float = 0.0
+    number2: float = 0.0
+
     # option_selected = 1
     while True:
-        # print(
-        #     '----------MENU----------\n'
-        #     'options: \n'  
-        #     '1 - Sum\n'
-        #     '2 - subtraction\n'
-        #     '3 - division\n'
-        #     '4 - multiplication\n'
-        #     '0 - Exit\n'
-        # )
 
+        #A forma com que eu estava seguindo...
+        print("""
+----------MENU----------
+options: 
+1 - Sum
+2 - subtraction
+3 - division
+4 - multiplication
+0 - Exit
+        """)
+
+        #Utilizando o dedent e mantendo a indentação do código
         print(dedent("""
                     ----------MENU----------
                     options:
